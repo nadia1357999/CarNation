@@ -1,0 +1,552 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    text-transform: capitalize;
+}
+.header{
+    position:fixed;
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 9%;
+    text-decoration: none;
+    z-index: 999;
+    top: 0;left:0;right: 0;
+    background-color: gray;
+}
+.logo{
+    font-size: 1.7rem;
+    color:black;
+    text-decoration: none;
+
+}
+
+.logo span{
+    
+    color: orange;
+}
+
+.navbar{
+     display: flex;
+     justify-content: center;
+     flex: 1;
+     align-items: center;
+    font-size: 1.2rem;
+    margin: 0;
+    color:black;
+    background-color: gray;
+   
+}
+.navbar a{
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+ }
+.navbar a:hover{
+    color:orange;
+}
+.logo:hover{
+    color:black;
+}
+#login-btn i{
+    color: black;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    background-color: rgba(255, 213, 0, 0.449);
+}
+.btn{
+    cursor: pointer;
+    padding: 8 rem 3rem;
+    background-color: rgba(255, 166, 0, 0.651);
+}
+.home img{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height:100vh;
+  display: block;
+  margin: auto;
+  height: 500px;
+
+  width: 70%;
+  margin-top: 20px;
+    
+}
+.home h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-top:160px;
+    text-transform: uppercase;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.explore-btn {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    margin: 0rem 30rem; 
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.explore-btn:hover {
+    background-color: darkorange;
+    color: white;
+}
+h1{
+    color: white;
+}
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+.carsell{
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    /* z-index: 0; */
+    position: relative;
+    margin-top: 50px;
+    background-color:white;
+    padding: 30px;
+}
+.g{
+    color: orange;
+}
+.carr{
+    background-color: gray;
+    padding: 20px;
+}
+.vechiles-slider{
+    padding-bottom: 5rem;
+
+}
+.box{
+    text-align: center;
+    width: 30rem;
+}
+.box img{
+    width: 100%;
+}
+.price{
+    font-size: 2rem;
+    color:rgba(255, 166, 0, 0.596) ;
+}
+.vechiles-slider p{
+    color: gray;
+
+}
+.wi{
+    background-color: rgba(128, 128, 128, 0.619);
+    margin-top: 5rem;
+    padding: 5rem;
+}
+.bi{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.login-form-container{
+     position: fixed;
+     top: -105%;left: 0; 
+     height: 100%;
+    width:100%; 
+    background: rgba(255,255,255,0.9);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    z-index: 1000; 
+    opacity: 0;
+}
+.login-form-container form{
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background: white;
+    border: var(--border);
+    text-align: center;
+     width: 40rem; 
+    text-transform: none;
+}
+.login-form-container form a{
+   text-decoration: none;
+}
+.login-form-container form h3{
+   text-transform: uppercase;
+   font-size: 2.5rem;
+}
+.form-control{
+    margin: .7rem 0.7rem;
+    width:90%;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 1rem 1.2rem;
+    border-radius: .5rem;
+    text-transform:none ;
+
+}
+.login-form-container form p{
+   padding: 1rem 0;
+   font-size: 1.5rem;
+   color: var(--light-color);
+}
+ .close-login-form #close-login-form{
+    position: absolute;
+    top: 1.5rem;right: 2.5rem;
+    font-size: 5rem;
+    color: black;
+    cursor: pointer;
+}
+.login-form-container.active{
+    top:0;
+    opacity: 1;
+} 
+.card-body{
+   text-align: center;
+}
+
+
+#reviews{
+    scroll-margin-top: 110px;
+}
+#services{
+    scroll-margin-top: 110px;
+}
+#carselling{
+    scroll-margin-top: 110px;
+}
+#contactus{
+    scroll-margin-top: 90px;
+}
+#home{
+    scroll-margin-top: 110px;
+}
+
+   .col{
+    border-radius: 5rem;
+   }
+#text{
+    padding: 15px;
+    background-color: white;
+   }
+.home-parallax{
+      background-color: white;
+    
+}
+
+
+
+
+/* Anufa maliha css topic */
+
+
+:root {
+    --yellow: #f9d806;
+    --black: #130f40;
+
+    --border: .1rem solid rgba(0, 0, 0, .3);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+}
+.services .heading {
+    margin-bottom: 3rem;
+}
+.heading {
+    margin-top: 5rem;
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.heading span {
+    color: var(--yellow);
+}
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+.services .box-container .box{
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border) ;
+    }
+    .services .box-container .box i {
+ height: 6rem;
+ width: 6rem;
+ line-height: 6rem;
+ font-size: 2.5rem;
+ color: var(--black);
+ background-color: var(--yellow);
+ border-radius: 50%;
+ margin-bottom: 1rem;
+    }
+
+
+   .services .box-container .box h3{
+    color:black;
+    font-size: 2.2rem;
+   }  
+    .services .box-container .box p{
+        color:gray;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+    }
+     .services .box-container .box:hover{
+        background:var(--black);
+     }
+     .services .box-container .box:hover h3{
+     color: #fff;
+     }
+     .services .box-container .box:hover p{
+     color: #eee;
+     }
+
+
+.reviews {
+    margin-top: 5rem;
+}
+    .reviews .reviews-slider{
+        padding-bottom: 3rem;
+     }
+    .reviews .reviews-slider  .box{
+        padding: 2rem 1.7rem;
+        margin: 2rem 0;
+        border-radius: .5rem;
+        text-align: center;
+        opacity: .4;
+        transform: scale(.9); 
+ 
+ 
+    }
+     .reviews .reviews-slider  .swiper-slide-active{
+         opacity: 1;
+        transform: scale(1);
+        box-shadow: var(--box-shadow);
+        border: var(--border);
+    } 
+
+    .reviews .reviews-slider  .box img{
+        height: 7rem;
+        width: 7rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+    .reviews .reviews-slider  .box  .content p {
+        font-size: 1.4rem;
+        color: rgb(76, 73, 110);
+        padding: 1rem 0;
+
+    }
+    .reviews .reviews-slider  .box  .content h3 {
+        font-size: 2.2rem;
+        color: rgb(15, 15, 15);
+       }
+     .reviews .reviews-slider  .box  .content .stars i {
+        font-size: 1.7rem;
+        color: var(--yellow);
+        padding: 1rem 0;
+
+    }
+    :root {
+    --black: #111b47;
+    --border: 1px solid #e2e8f0;
+    --box-shadow: 0 .4rem 1.5rem rgba(0,0,0,.06);
+}
+
+
+.custom-contact {
+    padding: 2rem 2%; 
+    font-family: Arial, sans-serif;
+}
+
+
+.custom-contact .custom-heading {
+    font-size: 2.8rem;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.custom-contact .custom-heading span {
+    position: relative;
+    z-index: 1;
+}
+
+.custom-contact .custom-heading span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 0.8rem;
+    width: 100%;
+    background: #ffdf6d;
+    z-index: -1;
+    border-radius: .2rem;
+}
+
+
+.custom-contact .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.custom-contact .custom-row .custom-map {
+    
+
+    flex: 1 1 45rem;
+    max-width: 55rem;
+    height: 48rem;
+    padding: 1.5rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background: #fff;;
+   
+}
+
+
+.custom-contact .custom-row .custom-form {
+    flex: 1 1 45rem;
+    max-width: 55rem;
+    padding: 3.5rem 3rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.custom-contact .custom-row .custom-form .form-title {
+    font-size: 2.8rem;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+
+.custom-contact .custom-row .custom-form .custom-box {
+    margin: .8rem 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.6rem;
+    color: #333;
+    border-radius: .5rem;
+    outline: none;
+}
+
+
+.custom-contact .custom-row .custom-form .custom-textarea {
+    height: 16rem;
+    resize: none;
+}
+
+
+.custom-contact .custom-row .custom-form .custom-btn {
+    align-self: center;
+    margin-top: 2rem;
+    padding: 1.2rem 4.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    background: #ffdf6d;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    transition: background 0.2s ease;
+}
+
+.custom-contact .custom-row .custom-form .custom-btn:hover {
+    background: #ffd43f;
+}
+.jocky{
+    border: .1rem solid rgba(0, 0, 0, .3);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 2);
+}
+.footer{
+    background:rgba(255, 166, 0, 0.633);
+    display: flex;
+}
+
+.footer h3{
+    color: black;
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    text-align: left;
+}
+.box a{
+    text-decoration: none;
+    margin: 12px 0;
+    display: block;
+    text-align: left;
+    color: black;
+}
+.box{
+   
+    margin-left: 2rem;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+}
+
+
+.collection h1{
+     margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-top:160px;
+    
+
+}
+.q{
+    font-size: 1.8rem;
+}
+
+.btn1{
+    align-items: center;
+    padding: 1rem;
+    color:white;
+    text-align: center;
+    background-color: orange;
+}
+.e{
+    background-color: lightgray;
+}
+.rangerover h1{
+     margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-top:160px;
+    
+
+}
